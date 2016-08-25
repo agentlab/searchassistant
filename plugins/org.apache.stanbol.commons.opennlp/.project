@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>org.apache.stanbol.commons.opennlp</name>
+	<comment>Provides a Bundle and support for the management of Models.
+    The Data File Provider infrastructure is used to load requested
+    models. Some Modles for English are included. Other models MUST
+    be provided via the DataFileProvider infrastrucutre.
+    (e.g. by including them in there classpath and providing an own 
+    DataFileProvider or by users adding the requred files to the
+    &quot;/datafiles&quot; folder in the Stanbol installation). NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>org.apache.stanbol.commons.stanboltools.datafileprovider</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.pde.PluginNature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

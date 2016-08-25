@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>org.apache.stanbol.enhancer.engines.opennlp.ner</name>
+	<comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>org.apache.stanbol.commons.opennlp</project>
+		<project>org.apache.stanbol.commons.stanboltools.datafileprovider</project>
+		<project>org.apache.stanbol.enhancer.servicesapi</project>
+		<project>org.apache.stanbol.commons.indexedgraph</project>
+		<project>org.apache.stanbol.enhancer.nlp</project>
+		<project>org.apache.stanbol.enhancer.test</project>
+		<project>org.apache.stanbol.enhancer.core</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.pde.PluginNature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
